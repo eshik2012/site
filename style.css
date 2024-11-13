@@ -1,0 +1,25 @@
+h1{
+    animation: color-change 3s infinite;
+}
+h2{
+    color:lightcoral
+}
+@keyframes color-change{
+    0%{
+        color:cadetblue; 
+    }
+    25%{
+        color:indianred;
+    }
+    50%{
+        color:lightblue;
+    }
+    75%{
+        color:coral;
+    }
+    100%{
+        color:lightseagreen;
+    }
+
+
+}
